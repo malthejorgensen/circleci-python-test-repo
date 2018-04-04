@@ -1,5 +1,8 @@
 CircleCI Python test repository
 ===============================
+Note: **This only relevant for CircleCI 1.0, which will be fully deprecated
+      in August 2018.**
+
 Having experienced caching issues on CircleCI, I'm using this repository to
 investigate the behaviour of CircleCI with various Python package/repo setups.
 

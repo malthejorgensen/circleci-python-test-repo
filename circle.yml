@@ -7,6 +7,9 @@ machine:
 dependencies:
   pre:
     # Nothing here yet
+  override:
+    # Override in order to _not_ run `python setup.py install`
+    - pip install -r requirements.txt
   post:
     # Nothing here yet
     # - pip install --quiet -r requirements_testing.txt

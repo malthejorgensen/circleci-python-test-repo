@@ -13,5 +13,5 @@ dependencies:
 
 test:
   override:
-    - python simple_test.py
+    - python runnable_test.py
     # - py.test --junitxml $CIRCLE_TEST_REPORTS/pytest/cache_tests.xml test_dummy.py

@@ -1,0 +1,17 @@
+machine:
+  python:
+    version: 2.7.14
+  environment:
+    # Nothing here yet
+
+dependencies:
+  pre:
+    # Nothing here yet
+  post:
+    # Nothing here yet
+    # - pip install --quiet -r requirements_testing.txt
+
+test:
+  override:
+    - python simple_test.py
+    # - py.test --junitxml $CIRCLE_TEST_REPORTS/pytest/cache_tests.xml test_dummy.py
